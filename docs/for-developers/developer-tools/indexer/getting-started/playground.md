@@ -15,7 +15,7 @@ Depending on the datas you are looking for, you can directly query any data need
 
 ```graphql
 {
-	nftEntities(first: 10, offset: 0, orderBy: TIMESTAMP_LIST_DESC) {
+	nftEntities(first: 10, offset: 0, orderBy: TIMESTAMP_LISTED_DESCTIMESTAMP_LISTED_DESC) {
 		totalCount
 		nodes {
 			nftId

@@ -38,7 +38,7 @@ const getLastListedNFTs = async () => {
 	  nftEntities(
 		first: 10, 
 		offset: 0, 
-		orderBy: TIMESTAMP_LIST_DESC
+		orderBy: TIMESTAMP_LISTED_DESC
 	  ) {
 		totalCount
 		nodes {
